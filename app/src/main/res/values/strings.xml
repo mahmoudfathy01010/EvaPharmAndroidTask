@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EvaPharmAndroidTask</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="search">Search</string>
+    <string name="favourite">Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vote_average"><![CDATA[<font color=\'#0094ff\'>Vote Average: </font> %1$.1f]]></string>
+    <string name="count"><![CDATA[<font color=\'#32CD30\'>Count: </font> %1$d]]></string>
+    <string name="retry">Retry</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="search_hint">Find your favourite movie</string>
+    <string name="no_results">No results 😓</string>
+    <string name="type_to_search">Type to search ☺</string>
+    <string name="movie_added_to_favourite">Movie is Added to Favourite list</string>
+    <string name="clear">Clear favourite List</string>
+    <string name="favourite_list_clear">Favourite list is cleared</string>
+    <string name="no_favourite_data">No favourite data available 😓</string>
+    <string name="add_to_favourite">Add to Favourite</string>
+    <string name="genre"><![CDATA[<font color=\'#DC143C\'>Genres: </font> %1$s]]></string>
+
+
+</resources>

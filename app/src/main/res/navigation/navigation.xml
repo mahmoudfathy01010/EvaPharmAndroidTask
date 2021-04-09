@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/nowPlayingFragment">
+    <fragment
+        android:id="@+id/nowPlayingFragment"
+        android:name="com.elbaitdesign.evapharmandroidtask.ui.now_playing.NowPlayingFragment"
+        android:label="NowPlayingFragment" >
+        <action
+            android:id="@+id/action_nowPlayingFragment_to_movieDetails"
+            app:destination="@id/movieDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.elbaitdesign.evapharmandroidtask.ui.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_movieDetails"
+            app:destination="@id/movieDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.elbaitdesign.evapharmandroidtask.ui.favourite.FavouriteFragment"
+        android:label="fragment_favourite"
+        tools:layout="@layout/fragment_favourite" />
+    <fragment
+        android:id="@+id/topRatedFragment"
+        android:name="com.elbaitdesign.evapharmandroidtask.ui.top_rated.TopRatedFragment"
+        android:label="fragment_top_rated"
+        tools:layout="@layout/fragment_top_rated" >
+        <action
+            android:id="@+id/action_topRatedFragment_to_movieDetails"
+            app:destination="@id/movieDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieDetails"
+        android:name="com.elbaitdesign.evapharmandroidtask.ui.details.MovieDetails"
+        android:label="MovieDetails" >
+        <argument
+            android:name="movie"
+            app:argType="com.elbaitdesign.evapharmandroidtask.model.Movie"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/baseFragment"
+        android:name="com.elbaitdesign.evapharmandroidtask.ui.BaseFragment"
+        android:label="BaseFragment" />
+</navigation>
