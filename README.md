@@ -1,5 +1,5 @@
 # EvaPharmAndroidTask
- This task contains implementation of the following:
+ This task contains Kotlin implementation of the following:
  - MVVM design Architecture
  - Navigation Architecture component
  - Retrofit
